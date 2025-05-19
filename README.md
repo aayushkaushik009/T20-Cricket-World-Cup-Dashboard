@@ -1,27 +1,42 @@
 
-T20 World Cup Analysis
-Project Overview
-Welcome to the T20 World Cup Analysis project! This project focuses on utilizing web scraping, Python, data cleaning, Power BI, and DAX measures to analyze and determine the best playing 11 in the T20 Cricket World Cup 2022.
+# T20 World Cup Analysis
 
-Skills Utilized
-Web Scraping: Extracted data from espncricinfo.com to gather comprehensive information about the T20 Cricket World Cup 2022.
-Python: Employed Python for data cleaning and manipulation tasks.
-Data Cleaning: Ensured the data is accurate and ready for analysis by cleaning and organizing it effectively.
-Power BI: Utilized Power BI for creating visualizations and gaining insights from the cleaned data.
-DAX Measures: Implemented Data Analysis Expressions (DAX) measures to define parameters and extract key performance indicators.
-Project Goals
-The primary goal of this project is to identify and showcase the best playing 11 in the T20 Cricket World Cup 2022 through a thorough analysis of player performances. The analysis involves the use of web scraping to gather data, Python for data cleaning, and Power BI with DAX measures for visualization and insights.
+## Project Overview
+This project analyzes the T20 Cricket World Cup 2022 to identify the best playing XI using:
 
-Project Workflow
-Data Collection: Extracted relevant data from espncricinfo.com for the T20 Cricket World Cup 2022.
-Data Cleaning with Python: Employed Python to clean and organize the data for further analysis.
-Conversion to CSV: Converted the cleaned data from JSON to CSV format for seamless integration with Power BI.
-Power BI Analysis: Conducted data analysis in Power BI, utilizing DAX measures to derive key insights.
-Parameters for Best Players: Established parameters to determine the best players based on various performance metrics.
-Visualization Creation: Developed visually appealing and informative Power BI visualizations highlighting individual player stats and key performances.
-Best Playing 11 Determination: Utilized the defined parameters in DAX measures to identify the best playing 11.
-Key Deliverables
-Cleaned and organized dataset in CSV format.
-Power BI visualizations showcasing key insights and player performances.
-Documentation highlighting the analysis methodology and key findings.
-Feel free to explore the project and discover the best playing 11 in the T20 Cricket World Cup 2022!
+- **Web Scraping**: Data collection from ESPNcricinfo.
+- **Python**: Data cleaning and manipulation.
+- **Power BI**: Visualization and interactive dashboards.
+- **DAX Measures**: Custom metrics for performance evaluation.
+
+## Objectives
+
+- Gather and prepare match and player data.
+- Define performance metrics using DAX.
+- Build visualizations to compare players.
+- Determine the top 11 players based on key indicators.
+
+## Workflow
+
+1. **Data Extraction**: Scrape match and player statistics from ESPNcricinfo.
+2. **Data Cleaning**: Use Python to transform and validate data, then export to CSV.
+3. **Data Modeling**: Import CSV into Power BI and structure tables.
+4. **Metric Definition**: Create DAX measures (e.g., strike rate, economy, batting average).
+5. **Visualization**: Design reports and dashboards showcasing individual and team performance.
+6. **Selection Algorithm**: Apply DAX-driven parameters to rank players and select the best XI.
+
+## Key Deliverables
+
+- **Cleaned CSV Dataset**: Ready for analysis in Power BI.
+- **Power BI Report**: Interactive visuals and dashboards.
+- **Documentation**: Detailed methodology and findings.
+
+## Skills Demonstrated
+
+- Automated web scraping with Python.
+- Robust data cleaning and transformation.
+- Advanced Power BI report development.
+- DAX measure creation for nuanced performance metrics.
+
+> Explore the report to uncover insights and see which players made the ultimate T20 World Cup 2022 XI!
+
